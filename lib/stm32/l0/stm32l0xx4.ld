@@ -30,3 +30,16 @@ MEMORY
 /* Include the common ld script. */
 INCLUDE libopencm3_stm32l0.ld
 
+/* Add fingerprint location in memory */
+
+SECTIONS
+{
+	_fingerprint_start = 0x08002000;
+
+	.fingerprint _fingerprint_start :
+	{
+		KEEP(*(.fingerprint));
+	}
+
+}
+
