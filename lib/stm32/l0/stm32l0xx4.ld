@@ -34,7 +34,7 @@ INCLUDE libopencm3_stm32l0.ld
 
 SECTIONS
 {
-	_fingerprint_start = 0x08002000;
+	_fingerprint_start = 0x08003e00;
 
 	.fingerprint _fingerprint_start :
 	{
