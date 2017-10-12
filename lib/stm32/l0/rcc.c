@@ -37,6 +37,8 @@
 #include <libopencm3/cm3/assert.h>
 #include <libopencm3/stm32/rcc.h>
 
+uint32_t rcc_apb1_frequency = 16000000;
+
 void rcc_osc_on(enum rcc_osc osc)
 {
 	switch (osc) {
