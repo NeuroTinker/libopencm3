@@ -166,7 +166,7 @@ LGPL License Terms @ref lgpl_license
 #define USART_CR2_RXINV         (1 << 16)
 #define USART_CR2_SWAP          (1 << 15)
 #define USART_CR2_LINEN         (1 << 14)
-#define USART_CR2_STOP_MASK     (0b11 << 12)
+#define USART_CR2_STOPBITS_MASK     (0b11 << 12)
 #define USART_CR2_CLKEN         (1 << 11)
 #define USART_CR2_CPOL          (1 << 10)
 #define USART_CR2_CPHA          (1 << 9)
