@@ -105,7 +105,7 @@ LGPL License Terms @ref lgpl_license
 
 /* Transmit data register (USARTx_TDR) */
 
-#define USART_TDR               MMIO32((usart) + 0x28)
+#define USART_TDR(usart)        MMIO32((usart) + 0x28)
 #define USART1_TDR              USART_TDR(USART1_BASE)
 #define USART2_TDR              USART_TDR(USART2_BASE)
 #define LPUART1_TDR             USART_TDR(LPUART1_BASE)

@@ -92,7 +92,7 @@ Devices can have up to 3 USARTs and 2 UARTs.
     void usart_wait_recv_ready(uint32_t usart)
     {
         /* Wait until the data is ready to be received. */
-        while ((USART_ISR(usart) & USART_SR_RXNE) == 0);
+        while ((USART_ISR(usart) & USART_ISR_RXNE) == 0);
     }
     
     /*---------------------------------------------------------------------------*/
