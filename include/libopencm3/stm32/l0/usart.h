@@ -234,3 +234,5 @@ LGPL License Terms @ref lgpl_license
 #define USART_RQR_MMRQ          (1 << 2)
 #define UASRT_RQR_SBKRQ         (1 << 1)
 #define USART_RQR_ABRPRQ        (1 << 0)
+
+#endif
