@@ -6,7 +6,7 @@
 
 @version 1.0.0
 
-@date 13 October 2017
+@date 30 October 2012
 
 LGPL License Terms @ref lgpl_license
 */
