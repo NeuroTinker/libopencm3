@@ -130,6 +130,10 @@ LGPL License Terms @ref lgpl_license
 
 #define USART_RDR_MASK          0x1FF
 
+/* USART_TDR values */
+
+#define USART_TDR_MASK          0x1FF
+
 /* USART CR1 values */
 
 #define USART_CR1_M1            (1 << 28)
