@@ -152,6 +152,8 @@ LGPL License Terms @ref lgpl_license
 #define USART_CR1_UESM          (1 << 1)
 #define USART_CR1_UE            (1 << 0)
 
+#define USART_CR1_M             USART_CR1_M0
+
 /* USART CR2 values */
 
 #define USART_CR2_ADD_MASK      (0b1111111 << 24)
