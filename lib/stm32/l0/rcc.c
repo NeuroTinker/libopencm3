@@ -38,6 +38,7 @@
 #include <libopencm3/stm32/rcc.h>
 
 uint32_t rcc_apb1_frequency = 16000000;
+uint32_t rcc_apb2_frequency = 16000000;
 
 void rcc_osc_on(enum rcc_osc osc)
 {
