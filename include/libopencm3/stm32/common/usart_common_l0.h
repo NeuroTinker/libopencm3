@@ -91,7 +91,7 @@ LGPL License Terms @ref lgpl_license
 
 /* ICR register (USARTx_ICR) */
 
-#define USART_ICR               MMIOS32((USART) + 0X20)
+#define USART_ICR               MMIO32((USART) + 0X20)
 #define USART1_ICR              USART_ICR(USART1_BASE)
 #define USART2_ICR              USART_ICR(USART2_BASE)
 #define LPUART1_ICR             USART_ICR(LPUART1_BASE)
